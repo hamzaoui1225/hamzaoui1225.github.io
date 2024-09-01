@@ -10,12 +10,10 @@ export default function SocialButton({text, link, color, children}: {
 }) {
 
 
+    // @ts-ignore
     return (
         <Link href={link}>
-            <div
-                style={{"--color-backgroud": color}}
-                buttonText={text}
-                className="group animation-button">
+            <div style={{['--color-backgroud' as any]: color}} buttonText={text} className="group animation-button">
                 {children}
             </div>
         </Link>
