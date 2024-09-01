@@ -4,7 +4,7 @@ import {FacebookSVG, GitHubSVG, GmailSVG, InstagramSVG, LinkedInSVG} from "@/ui/
 
 export default function SocialMediaSection() {
 
-    return (<div className="flex gap-[5px] justify-center pt-6">
+    return (<div className="flex gap-[5px] justify-center">
         <SocialButton delay={0.25} link={"mailto:hamzaoui1225@gmail.com"} color={"red"}>
             <GmailSVG/>
         </SocialButton>

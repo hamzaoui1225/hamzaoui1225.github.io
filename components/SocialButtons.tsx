@@ -14,7 +14,7 @@ export default function SocialButton({link, color, children, delay}: {
     return (
         <Link href={link}>
             <motion.div
-                initial={ {y: 100 , opacity: 0} }
+                initial={ {y: -100 , opacity: 0} }
                 whileInView={ {y: 0 , opacity: 1} }
                 transition={{ delay: delay }}
                 style={{

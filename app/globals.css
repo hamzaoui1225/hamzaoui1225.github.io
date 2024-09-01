@@ -10,8 +10,12 @@
 [data-theme='dark'] {
   --background: 25,25,25;
   --foreground: 240,240,240;
-  --lighter-background: 40,40,40;
+  --lighter-background: 60,60,60;
 }
+
+/** {*/
+/*  border: 1px red solid;*/
+/*}*/
 
 body {
   color: rgb(var(--foreground));
