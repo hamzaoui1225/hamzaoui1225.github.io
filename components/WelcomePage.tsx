@@ -16,7 +16,7 @@ export default function WelcomePage () {
             <span className="text-3xl font-extralight">Software Developer</span>
         </div>
         <div className="flex flex-col text-center justify-center pt-5">
-            <span className="text-xl font-extralight pr-4 pl-4">I am proud to have a unique background that combines system engineering, computer networking, and software development. In my various roles, I have found myself regularly called upon to tackle technical challenges, resolve coding issues and engage with different teams working on different projects. My love of coding drives me internally and I relish every opportunity to tackle the deepest technical challenges. From developing a user-friendly frontend to building reliable web servers, I've worked on many projects. Also, have experience with cross-platform mobile application development.</span>
+            <span className="text-xl font-extralight pr-4 pl-4">I am proud to have a unique background that combines system engineering, computer networking, and software development. In my various roles, I have found myself regularly called upon to tackle technical challenges, resolve coding issues and engage with different teams working on different projects. My love of coding drives me internally and I relish every opportunity to tackle the deepest technical challenges. From developing a user-friendly frontend to building reliable web servers, Ive worked on many projects. Also, have experience with cross-platform mobile application development.</span>
         </div>
         <div className="p-8">
             <SocialMediaSection/>
