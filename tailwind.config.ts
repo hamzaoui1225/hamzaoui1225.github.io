@@ -19,6 +19,9 @@ const config: Config = {
       center: true,
     },
     extend: {
+      colors: {
+        "primary" : "#2659ff",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
