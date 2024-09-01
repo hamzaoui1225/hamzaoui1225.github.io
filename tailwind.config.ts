@@ -21,6 +21,7 @@ const config: Config = {
     extend: {
       colors: {
         "primary" : "#2659ff",
+        "primary-hover" : "#022188",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
